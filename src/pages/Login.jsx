@@ -74,7 +74,7 @@ const Login = () => {
               onChange={handleChange} />
           </div>
             <button type="submit" className="btn btn-secondary">Login</button>
-          <div className="mt-2 d-md-flex justify-content-between">
+          <div className="mt-2 d-md-flex justify-content-around">
             <p className='my-2 text-secondary'>Don't have an Account <Link className=' text-black' to="/register">Register Now!</Link></p>
             <a href="#" onClick={handleResetPassword} className='my-2 text-secondary fw-bold'>Forgot Password?</a>
           </div>

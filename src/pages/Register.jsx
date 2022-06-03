@@ -56,7 +56,7 @@ const Register = () => {
               onChange={handleChange} />
           </div>
             <button type="submit" className="px-3 btn btn-secondary">Register</button>
-          <div className="mt-2 d-flex justify-content-between">
+          <div className="mt-2 d-flex justify-content-center">
             <p className='my-2 text-secondary'>Already have an Account <Link className=' text-black' to="/login">Login Now!</Link></p>
           </div>
         </form>

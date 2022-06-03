@@ -5,11 +5,13 @@ import Home from "./pages/Home.jsx";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import "./App.css";
+import Navbar from "./layout/Navbar.jsx";
 function App() {
   return (
     <div className="App bg">
       <div className="container h-100  ">
         <AuthProvider>
+          <Navbar />
           <Routes>
             <Route
               path="/"
