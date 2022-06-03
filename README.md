@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+# Book Managment System Web App
+A simple book app where you can view list of books and create a book.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Stacks Used
+- React js (javascript framework) => Front-end
+- Firebase (Firebase Auth and cloud function and firestore) => Back-end
+  
 
-## Available Scripts
+# ScreenShots
+<img src="assets/../src/assets/screenshots/login.png" height="200em"><img src="assets/../src/assets/screenshots/register.png" height="200em">
+<img src="assets/../src/assets/screenshots/slider.png" height="200em"><img src="assets/../src/assets/screenshots/books.png" height="200em">
+
+
+
+## How to run
 
 In the project directory, you can run:
 
