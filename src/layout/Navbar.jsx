@@ -11,6 +11,10 @@ export default function Navbar() {
     await logout()
 
   }
+
+  const handleCreate= async () => {
+    
+  }
   return (
     <div className='customNavbar'>
       <ul>
@@ -28,7 +32,7 @@ export default function Navbar() {
         { user && (<>
           <li>
             {  <button className='btn btn-outline-light logout' onClick={handleLogout}>Logout</button> }
-           
+            <button className='btn btn-outline-light logout' onClick={handleCreate}>Create Book</button> 
           </li>
         </>)}
       </ul>

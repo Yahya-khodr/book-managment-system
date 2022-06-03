@@ -31,7 +31,7 @@ const CarouselCard = (props) => {
       ssr={true}
       infinite={true}
       autoPlay={true}
-      autoPlaySpeed={800}
+      autoPlaySpeed={1000}
     >
       {props.children}
     </Carousel>
