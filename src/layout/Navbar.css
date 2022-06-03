@@ -18,15 +18,11 @@ letter-spacing: 0.1rem;
 border: 2px solid;
 border-image-slice: 1;
 border-width: 3;
+
 border-image-source: linear-gradient(to left, #f0f0f0, #aee1f9);
-padding: 1rem;
+padding: 0.5rem;
 }
-.customNavbar .logo img {
-margin-right: 10px;
-filter: invert(85%);
-width: 36px;
-margin-top: -8px;
-}
+
 .customNavbar a {
 color: #fff;
 text-decoration: none;

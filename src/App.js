@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import "./App.css";
 import Navbar from "./layout/Navbar.jsx";
+import NotFound from "./pages/NotFound.jsx";
 function App() {
   return (
     <div className="App bg">
@@ -23,6 +24,7 @@ function App() {
             />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </AuthProvider>
       </div>

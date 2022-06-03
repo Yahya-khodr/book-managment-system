@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <div className='customNavbar'>
       <ul>
-        <li className='logo'>
+        <li className='logo '>
           <p>BOOK LIBRARY</p>
         </li>
         { !user && (<>
@@ -22,7 +22,7 @@ export default function Navbar() {
               <Link to="/login">Login</Link>
             </li>
             <li>
-              <Link to="/signup">Signup</Link>
+              <Link to="/register">Signup</Link>
             </li>
           </>)}
         { user && (<>
