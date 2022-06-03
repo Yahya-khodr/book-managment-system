@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import './Navbar.css'
 import useAuth from '../hooks/useAuth'
-
+import {useNavigate } from "react-router-dom";
 export default function Navbar() {
  
   const { user , logout} = useAuth()
@@ -15,6 +15,7 @@ export default function Navbar() {
   const handleCreate= async () => {
     
   }
+  const navigate = useNavigate();
   return (
     <div className='customNavbar'>
       <ul>
@@ -30,9 +31,10 @@ export default function Navbar() {
             </li>
           </>)}
         { user && (<>
+            <button className='btn btn-outline-light m-auto d-md-flex justify-content-center  align-items-center' onClick={() => navigate("/books")}>Books</button> 
           <li>
+            
             {  <button className='btn btn-outline-light logout' onClick={handleLogout}>Logout</button> }
-            <button className='btn btn-outline-light logout' onClick={handleCreate}>Create Book</button> 
           </li>
         </>)}
       </ul>

@@ -7,7 +7,7 @@ import book4 from '../assets/book4.jpg'
 import CarouselCard from "../components/CarouselSlider";
 import CarouselItem from "../components/CarouselSlider/CarouselItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import BookList from "../components/BookList";
+import AllBooks from "../components/BookList";
 const books = [
     {
       name: "The Midnight Library",
@@ -68,7 +68,7 @@ const Home = () => {
             ))}
           </CarouselCard>
         </Box>
-        <BookList/>
+        <AllBooks/>
        
   </>
 

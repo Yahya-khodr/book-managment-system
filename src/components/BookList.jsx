@@ -44,9 +44,9 @@ import book4 from '../assets/book4.jpg'
     
    
   ];
-  const BookList = () => {
+  const AllBooks = () => {
     return (
-      <Container sx={{ py: 3 }} maxWidth="md">
+      <Container sx={{ py: 3, width: "100%" }} maxWidth="xl">
         <Typography
           align="center"
           fontSize="2em"
@@ -85,5 +85,5 @@ import book4 from '../assets/book4.jpg'
     );
   };
   
-  export default BookList;
+  export default AllBooks;
   

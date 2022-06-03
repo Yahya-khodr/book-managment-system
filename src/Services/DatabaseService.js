@@ -1,7 +1,7 @@
-import {db} from '../firebase'
+import { db } from '../firebase'
 
 class DatabaseService {
-    collection
+  collection
 
   constructor(collectionName) {
     this.collection = db.collection(collectionName)
@@ -48,4 +48,8 @@ class DatabaseService {
   }
 }
 
+
+
 export const BookService = new DatabaseService('books')
+
+

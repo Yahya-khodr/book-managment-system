@@ -7,6 +7,8 @@ import Register from "./pages/Register";
 import "./App.css";
 import Navbar from "./layout/Navbar.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import Books from "./pages/Books.jsx";
+import AllBooks from "./components/BookList.jsx";
 function App() {
   return (
     <div className="App bg">
@@ -19,6 +21,15 @@ function App() {
               element={
                 <ProtectedRoute>
                   <Home />
+                </ProtectedRoute>
+              }
+            />
+         
+            <Route
+              path="/books"
+              element={
+                <ProtectedRoute>
+                  <AllBooks />
                 </ProtectedRoute>
               }
             />
