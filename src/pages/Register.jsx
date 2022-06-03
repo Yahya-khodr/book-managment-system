@@ -55,7 +55,7 @@ const Register = () => {
               placeholder="*********"
               onChange={handleChange} />
           </div>
-            <button type="submit" className="px-3 btn btn-primary">Register</button>
+            <button type="submit" className="px-3 btn btn-secondary">Register</button>
           <div className="mt-2 d-flex justify-content-between">
             <p className='my-2 text-secondary'>Already have an Account <Link className=' text-black' to="/login">Login Now!</Link></p>
           </div>
